@@ -183,8 +183,8 @@ img {
 /* BANNER */
 
 .banner {
-    background: url(../img/Flying_Nanny_215.jpg) no-repeat fixed;
-    background-size: cover;
+    background: url(../img/Flying_Nanny_215_tablet.jpg) no-repeat fixed;
+    background-position-y: 20px;
 }
 
 .title {
@@ -519,6 +519,10 @@ a.up {
 /* MEDIUM DEVICES - TABLETS & DESKTOPS*/
 
 @media screen and (min-width: 960px) {
+    .banner {
+        background: url(../img/Flying_Nanny_215_desktop.jpg) no-repeat fixed;
+        background-position-y: 30px;
+    }
 	.container {
 	    padding: 1% 4%;
 	}
@@ -620,5 +624,8 @@ a.up {
 /* LARGE DEVICES - WIDE SCREENS*/
 
 @media screen and (min-width: 1280px) {
-
+    .banner {
+        background: url(../img/Flying_Nanny_215.jpg) no-repeat fixed;
+        background-size: contain;
+    }
 }
