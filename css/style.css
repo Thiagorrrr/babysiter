@@ -626,6 +626,6 @@ a.up {
 @media screen and (min-width: 1280px) {
     .banner {
         background: url(../img/Flying_Nanny_215.jpg) no-repeat fixed;
-        background-size: contain;
+        background-size: cover;
     }
 }
